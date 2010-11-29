@@ -1,15 +1,25 @@
-.. SAL documentation master file, created by
-   sphinx-quickstart on Mon Nov 29 16:58:22 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _index:
 
-Welcome to SAL's documentation!
+===============================
+SAL (Storage Abstraction Layer)
 ===============================
 
-Contents:
+`SAL` is a database independent storage API which allows rich, high level
+persistence of application data to arbitrary storages.  `SAL` provides
+content types defined by schemas, relationships, revisioning, queries and
+navigation by means of a traversable folder-like structure.
+
+Narrative documentation
+=======================
 
 .. toctree::
    :maxdepth: 2
+
+   narr/setup
+   narr/schemas_and_types
+   narr/querying
+   narr/revisions
+   narr/traversal
 
 Indices and tables
 ==================
@@ -17,4 +27,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
